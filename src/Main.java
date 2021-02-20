@@ -1,13 +1,14 @@
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.*;
 
 public class Main {
 
     private static final int dimension = 100;
+    private static Scanner scanner;
     public static void main(String[] args) {
-        generator(100);
+        System.out.println("Введите натуральное число:");
+        scanner = new Scanner(System.in);
+        Integer number = scanner.nextInt();
+        generator(number);
 
     }
 
