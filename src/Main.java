@@ -30,8 +30,8 @@ public class Main {
             } else {
                 Arrays.sort(array[i], Collections.reverseOrder());
             }
+            System.out.println(Arrays.toString(array[i]));
         }
-        System.out.println(Arrays.toString(array));
     }
 
 }
